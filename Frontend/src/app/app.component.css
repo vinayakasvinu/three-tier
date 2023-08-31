@@ -1,0 +1,7 @@
+.footer-t{
+    float: right;
+    padding: 10px;
+    display: block !important;
+    line-height: normal !important;
+    font-size: 27px;
+}

@@ -1,0 +1,15 @@
+<div>
+  <h2>Add a Name</h2>
+  <!-- <form (ngSubmit)="addName()"> -->
+    <input type="text" [(ngModel)]="newName" placeholder="Enter your name" />
+    <div *ngIf="!newName" class="error">{{errorName}}</div>
+    <button type="submit" (click)="saveName()">Add Name</button>
+  <!-- </form> -->
+</div>
+
+<div>
+  <h2>Name Tags</h2>
+  <ul>
+    <li *ngFor="let name of names">{{ name?.userName }}</li>
+  </ul>
+</div>
