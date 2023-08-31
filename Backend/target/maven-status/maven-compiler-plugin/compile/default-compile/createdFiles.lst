@@ -1,0 +1,6 @@
+com\deploymentDemo\userProject\model\UserModel.class
+com\deploymentDemo\userProject\UserProjectApplication.class
+com\deploymentDemo\userProject\controller\UserController.class
+com\deploymentDemo\userProject\repository\UserRepo.class
+com\deploymentDemo\userProject\service\UserService.class
+com\deploymentDemo\userProject\serviceImpl\UserServiceImpl.class
