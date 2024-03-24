@@ -6,6 +6,6 @@ ENV MYSQL_ROOT_PASSWORD=root
 ENV MYSQL_DATABASE=userdata
 
 # Copy SQL initialization scripts to the container
-COPY *.sql /docker-entrypoint-initdb.d/
+COPY userdata_user_model.sql /docker-entrypoint-initdb.d/
 
 EXPOSE 3306
